@@ -37,7 +37,7 @@ The reconstruction is based on the Optimal Filtering (OF) algorithm:
 
 The optimal weights are obtained analytically:
 
-w = R⁻¹ C (Cᵀ R⁻¹ C)⁻¹
+$$w = R^{-1}C(C^{T}R^{-1}C)^{-1}$$
 
 ---
 ## Challenges
@@ -51,9 +51,9 @@ w = R⁻¹ C (Cᵀ R⁻¹ C)⁻¹
 
 To stabilize the system, Tikhonov regularization was applied:
 
-R\_reg = R + λI  
+$$R\_reg = R + \lambda I$$
 
-- Grid search used to determine optimal λ  
+- Grid search used to determine optimal $\lambda$  
 - Trade-off between numerical stability and physical accuracy  
 
 ---
