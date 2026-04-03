@@ -78,4 +78,4 @@ This work highlights the limitations of linear filtering methods under extreme p
 
 ---
 ## Author
-Rubén Sierra Serra
+Rubén Sierra Serrano
