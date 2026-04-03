@@ -43,7 +43,7 @@ $$w = R^{-1}C(C^{T}R^{-1}C)^{-1}$$
 ## Challenges
 
 - Strongly correlated noise due to pileup  
-- Ill-conditioned covariance matrix (R)  
+- Ill-conditioned covariance matrix ($R$)  
 - Numerical instability in matrix inversion  
 - Breakdown of timing reconstruction under high luminosity  
 ---
@@ -51,7 +51,7 @@ $$w = R^{-1}C(C^{T}R^{-1}C)^{-1}$$
 
 To stabilize the system, Tikhonov regularization was applied:
 
-$$R\_reg = R + \lambda I$$
+$$R_{reg} = R + \lambda I$$
 
 - Grid search used to determine optimal $\lambda$  
 - Trade-off between numerical stability and physical accuracy  
